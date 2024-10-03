@@ -12,6 +12,7 @@ if response.status_code==200:
 
     for i in data:
         print(f"Post no :{i.get('id')}")
+        
 else:
     print("error")
 
