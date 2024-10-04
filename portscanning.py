@@ -13,9 +13,9 @@ def scanport(ip,port):
 
 
 def main():
-    ip="127.0.0.1"
+    ip="192.168.0.1"
     start=1
-    end=8082
+    end=200
 
     for port in range(start,end + 1):
         scanport(ip,port)
