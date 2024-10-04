@@ -13,7 +13,7 @@ def scanport(ip,port):
 
 
 def main():
-    ip="192.168.0.1"
+    ip="54.182.0.76"
     start=1
     end=200
 
